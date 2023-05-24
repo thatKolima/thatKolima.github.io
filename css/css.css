@@ -1,0 +1,11 @@
+.box {
+    width: auto;
+    height: 500px;
+   
+  }
+  
+  img {
+    width: 100%; /* takes the 100 % width of its container (.box div)*/
+    height: 100%; /* takes the 100 % height of its container (.box div)*/
+    object-fit: cover;
+  }
