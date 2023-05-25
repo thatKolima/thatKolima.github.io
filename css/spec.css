@@ -15,12 +15,10 @@ body
     width: 100%; /* takes the 100 % width of its container (.box div)*/
     height: 100%; /* takes the 100 % height of its container (.box div)*/
     object-fit: cover;
-    max-height: 1000px;
-    max-width: 1000px;
     outline: solid;
     outline-color: black;
   }
-  #Interactionbox
+  #Textbox
   {
     margin-top: 100px;
     margin-left: auto;
@@ -48,4 +46,18 @@ body
     border-color: gold;
     transition: border-color 0.3s;
     margin-bottom: 4px;
+}
+#Buttonbox
+{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #ffffed;
+  background-color: #ffffedaa;
+  padding: 20px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: goldenrod;
+
 }

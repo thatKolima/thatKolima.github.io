@@ -1,17 +1,17 @@
 body
 {
   font-family: 'Courier New', Courier, monospace;
-  background-color: blueviolet;
+  background-color: rgb(139, 67, 207);
 }
 #main
 {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     background-color: #ffffed;
     background-color: #ffffedaa;
-    padding: 10px;
+    padding: 5px;
     border-width: 3px;
     border-style: solid;
     border-color: goldenrod;
