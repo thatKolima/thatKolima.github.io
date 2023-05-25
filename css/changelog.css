@@ -1,35 +1,23 @@
 body
 {
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
   background-color: blueviolet;
 }
-.box {
-    width: auto;
-    height: auto;
-   
-  }
-  
-  img {
-    width: 100%; /* takes the 100 % width of its container (.box div)*/
-    height: 100%; /* takes the 100 % height of its container (.box div)*/
-    object-fit: cover;
-  }
-  #main
-  {
+#main
+{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
     background-color: #ffffed;
     background-color: #ffffedaa;
-    padding: 20px;
+    padding: 10px;
     border-width: 3px;
     border-style: solid;
     border-color: goldenrod;
 
   }
-  .button-link
+.button-link
 {
   text-align: center;  
   width: 25%;
