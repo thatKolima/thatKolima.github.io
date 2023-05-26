@@ -1,7 +1,0 @@
-{
-    "[html]": {
-        "editor.formatOnType": true,
-        "editor.linkedEditing": false,
-        "editor.suggest.matchOnWordStartOnly": false
-    }
-}
