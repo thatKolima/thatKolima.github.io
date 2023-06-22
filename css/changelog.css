@@ -32,3 +32,33 @@ body
     transition: border-color 0.3s;
     margin-bottom: 4px;
 }
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border: 1px solid green;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: rgb(64, 66, 59);  
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #6d7263;  
+  }
+.ScrollBox
+{
+
+  height:500px;
+  width:auto;
+  overflow:auto;
+  background-color:rgb(26, 24, 2);
+  color:green;
+  font-family:'Courier New', Courier, monospace;
+  padding:10px;
+  border: 10px;
+}
