@@ -35,6 +35,8 @@ body
     transition: border-color 0.3s;
     margin-bottom: 4px;
 }
+/**
+old scroll, out of service
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;
@@ -65,14 +67,45 @@ body
   font-family:'Courier New', Courier, monospace;
   padding:10px;
   border: 10px;
-}
+}**/
+
 
 
 
 #toggle {
   display: none;
 }
+/**
+scrollbar, special thanks to bing
+**/
+.scrollmenu {
+  background-color: #000000;
+  overflow: auto;
+  overflow-y: scroll;
+  color: green;
+  max-width:  99%;
+  max-height: 700px;
+  border: 10px;
+  border-color: grey;
+  z-index: -1;
+}
 
+.scrollmenu a {
+  
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  z-index: inherit;
+  border: 10px;
+  border-color: grey;
+}
+
+.scrollmenu a:hover {
+  background-color: #000000;
+  border: 10px;
+  border-color: grey;
+  z-index: inherit;
+}
 /**
   Hamburger
 **/
@@ -84,7 +117,7 @@ body
   margin-top: -45px;
   width: 2em;
   height: 45px;
-  z-index: 5;
+  z-index: 10;
 }
 
 .hamburger div {
@@ -95,6 +128,7 @@ body
   background-color: #B58ECC;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
+  z-index: inherit;
 }
 
 /**
@@ -110,16 +144,19 @@ Styling navbar
   transition: all 0.3s ease-in-out;
   transform: scale(0);
   opacity: 1;
+  z-index: 9;
 }
 .nav-wrapper {
   position: relative;
   overflow: hidden;
   overflow-y: auto;
   height: 100%;
+  z-index: inherit;
 }
 nav {
   text-align: left;
   margin-left: 25%;
+  z-index: inherit;
 }
 nav a {
   position: relative;
@@ -130,11 +167,13 @@ nav a {
   margin-top: 1.25em;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
+  z-index: inherit;
 }
 
 nav a:hover {
   color:#5F0A87;
   font-weight:bolder; 
+  z-index: inherit;
 }
 
 /**
